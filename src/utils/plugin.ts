@@ -1,4 +1,5 @@
-import { expandTildeImport } from '@t/tilde-imports';
+// @ts-expect-error: forgot to add types
+import { expandTildeImport } from 'tilde-imports';
 import type { Plugin } from 'rollup';
 
 export function tildeImports(): Plugin {
