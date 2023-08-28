@@ -7,7 +7,8 @@
 		"build": "ts-node ./scripts/build.ts"
 	},
 	"dependencies": {
-		"tilde-imports": "^1.0.1"
+		"get-monorepo-root": "^1.0.0",
+		"tilde-imports": "^2.0.0"
 	},
 	"peerDependencies": {
 		"rollup": "^3.25.3"
