@@ -27,7 +27,7 @@ export function tildeImports(): Plugin {
 
 				return expandTildeImport({
 					importSpecifier: source,
-					importerFilePath: importer
+					importerFilepath: importer
 				});
 			}
 		}
