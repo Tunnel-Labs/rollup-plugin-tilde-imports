@@ -9,8 +9,8 @@ dependencies:
     specifier: ^1.0.0
     version: 1.0.0
   tilde-imports:
-    specifier: ^2.0.0
-    version: 2.0.0
+    specifier: ^3.0.0
+    version: 3.0.0
 
 devDependencies:
   lionconfig:
@@ -6618,8 +6618,8 @@ packages:
     resolution: {integrity: sha512-w89qg7PI8wAdvX60bMDP+bFoD5Dvhm9oLheFp5O4a2QF0cSBGsBX4qZmadPMvVqlLJBBci+WqGGOAPvcDeNSVg==}
     dev: true
 
-  /tilde-imports@2.0.0:
-    resolution: {integrity: sha512-Pu1lsMDfq01LKshH/1RbxrD3sT94nkfeUSOzmaEppujJzN/DJucERciLgh/cDuc1QtbJWOxqiPSUrp8PKhXFgA==}
+  /tilde-imports@3.0.0:
+    resolution: {integrity: sha512-jU7dcRqZ7E1UoijkM+bGbJe/Bdn+xw1VIb+suH97feBuWK6ruognhqE9Rt2Ctx1IPbnrjtUJqspB2sWri43cqA==}
     dependencies:
       fast-glob: 3.3.1
       pathe: 1.1.1
@@ -7236,7 +7236,7 @@ packages:
     dependencies:
       eslint-visitor-keys: 3.4.3
       lodash: 4.17.21
-      yaml: 2.3.1
+      yaml: 2.3.2
     dev: true
 
   /yaml@1.10.2:
@@ -7252,7 +7252,6 @@ packages:
   /yaml@2.3.2:
     resolution: {integrity: sha512-N/lyzTPaJasoDmfV7YTrYCI0G/3ivm/9wdG0aHuheKowWQwGTsK0Eoiw6utmzAnI6pkJa0DUVygvp3spqqEKXg==}
     engines: {node: '>= 14'}
-    dev: false
 
   /yargs-parser@20.2.9:
     resolution: {integrity: sha512-y11nGElTIV+CT3Zv9t7VKl+Q3hTQoT9a1Qzezhhl6Rp21gJ/IVTW7Z3y9EWXhuUBC2Shnf+DX0antecpAwSP8w==}
