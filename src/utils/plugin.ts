@@ -1,11 +1,15 @@
-// @ts-expect-error: forgot to add types
 import { createTildeImportExpander } from 'tilde-imports';
 import { getMonorepoDirpath } from 'get-monorepo-root';
 import type { Plugin } from 'rollup';
 
 export function tildeImports(): Plugin {
+	const monorepoDirpath = getMonorepoDirpath(import.meta.url);
+	if (monorepoDirpath === undefined) {
+		throw new Error('Could not find monorepo dirpath');
+	}
+
 	const expandTildeImport = createTildeImportExpander({
-		monorepoDirpath: getMonorepoDirpath(import.meta.url)
+		monorepoDirpath
 	});
 
 	return {
